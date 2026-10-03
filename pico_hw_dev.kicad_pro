@@ -857,7 +857,7 @@
         "uuid": "cae338e8-f342-43cb-b99a-a0486629133c"
       }
     ],
-    "used_designators": "#PWR131-133,J26-27,D9",
+    "used_designators": "R60-62,JP13-14,U10,J1-4,#PWR43,#PWR45,#PWR120,#PWR126,#PWR134-136",
     "variants": []
   },
   "sheets": [
@@ -866,12 +866,8 @@
       "pico_hw_dev"
     ],
     [
-      "81c4454a-5fa1-4641-b516-082a2fd32867",
-      "vga"
-    ],
-    [
-      "62520ce4-d21b-4842-a32d-5b11b343b2aa",
-      "ft232"
+      "67883998-821a-4f16-8f60-6841f0d323af",
+      "osciloscope"
     ],
     [
       "d2e61921-5974-44e2-9221-de7c05f17e70",
@@ -904,6 +900,10 @@
     [
       "ccf99285-bbc9-499c-85a5-ba9a66a731df",
       "ps2"
+    ],
+    [
+      "3bea3e97-eb4b-4ee3-955f-b6f480a82230",
+      "debugger"
     ],
     [
       "2567bb9e-06b8-4d2c-80a7-ee2453b67a65",

@@ -1040,6 +1040,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 143.51) (xy 161.29 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c033b86-ef97-404b-a52b-7fa3ddf04dd0")
+	)
+	(wire
+		(pts
 			(xy 166.37 110.49) (xy 168.91 110.49)
 		)
 		(stroke
@@ -1550,16 +1560,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 143.51) (xy 161.29 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db342773-0bab-47aa-ab55-af97cb7bdc69")
-	)
-	(wire
-		(pts
 			(xy 166.37 143.51) (xy 168.91 143.51)
 		)
 		(stroke
@@ -1718,40 +1718,18 @@
 		)
 		(uuid "d5327445-7fda-4d65-a310-1332c401b421")
 	)
-	(hierarchical_label "GP_13"
+	(hierarchical_label "GREEN_2"
 		(shape input)
-		(at 157.48 139.7 180)
+		(at 157.48 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "0ecf44e3-b6dd-4226-98cb-5799d68e0480")
+		(uuid "18264f27-bfde-414b-ad46-7ae8b7fbbe63")
 	)
-	(hierarchical_label "GP_12"
-		(shape input)
-		(at 157.48 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "11657227-5456-48b9-ba0c-5da6504d44cb")
-	)
-	(hierarchical_label "GP_15"
-		(shape input)
-		(at 157.48 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "244d1121-85ed-4fc6-b459-4eb27472add1")
-	)
-	(hierarchical_label "GP_"
+	(hierarchical_label "VSYNC"
 		(shape input)
 		(at 125.73 104.14 0)
 		(effects
@@ -1762,7 +1740,7 @@
 		)
 		(uuid "272f19a2-ec73-454e-b788-4cd67e2e19bb")
 	)
-	(hierarchical_label "GP_2"
+	(hierarchical_label "RED_2"
 		(shape input)
 		(at 157.48 82.55 180)
 		(effects
@@ -1773,18 +1751,29 @@
 		)
 		(uuid "2d5ce95f-941e-4a91-8954-bde7c5ee6f5f")
 	)
-	(hierarchical_label "GP_14"
+	(hierarchical_label "GREEN_3"
 		(shape input)
-		(at 157.48 143.51 180)
+		(at 157.48 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "2f5933fa-da9b-4b0c-b074-b0723f6d5229")
+		(uuid "32abd90d-5f70-403a-98df-0aa6a206fd8c")
 	)
-	(hierarchical_label "GP_6"
+	(hierarchical_label "GREEN_0"
+		(shape input)
+		(at 157.48 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33ff04f8-bebd-4fdd-9b9c-04402ca3b6ba")
+	)
+	(hierarchical_label "BLUE_0"
 		(shape input)
 		(at 157.48 102.87 180)
 		(effects
@@ -1795,7 +1784,7 @@
 		)
 		(uuid "3610490b-e672-42a8-a927-4bc6e7fa77d6")
 	)
-	(hierarchical_label "GP_0"
+	(hierarchical_label "RED_0"
 		(shape input)
 		(at 157.48 74.93 180)
 		(effects
@@ -1806,7 +1795,7 @@
 		)
 		(uuid "38fdf1af-35a6-49dd-a88d-4a7df114f232")
 	)
-	(hierarchical_label "GP_1"
+	(hierarchical_label "RED_1"
 		(shape input)
 		(at 157.48 78.74 180)
 		(effects
@@ -1817,7 +1806,29 @@
 		)
 		(uuid "4785be5b-bdba-4365-b346-5e44caa49a23")
 	)
-	(hierarchical_label "GP_5"
+	(hierarchical_label "BLUE_2"
+		(shape input)
+		(at 157.48 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "548184b0-0789-4a36-88a7-7d8762d2094d")
+	)
+	(hierarchical_label "GREEN_1"
+		(shape input)
+		(at 157.48 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5abdf53b-87bf-4227-992f-b08ca70cb3ac")
+	)
+	(hierarchical_label "RED_5"
 		(shape input)
 		(at 157.48 93.98 180)
 		(effects
@@ -1828,40 +1839,40 @@
 		)
 		(uuid "5e541474-87da-46b9-ae78-801ef010625d")
 	)
-	(hierarchical_label "GP_10"
+	(hierarchical_label "GREEN_4"
 		(shape input)
-		(at 157.48 118.11 180)
+		(at 157.48 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "6446ac21-5c8a-4040-9f91-756db958bc33")
+		(uuid "5f24c7a6-024b-43ac-a8b3-9e07fb298328")
 	)
-	(hierarchical_label "GP_17"
+	(hierarchical_label "BLUE_1"
 		(shape input)
-		(at 157.48 154.94 180)
+		(at 157.48 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "646eca2a-9733-4a29-aa6f-00ebbd576689")
+		(uuid "7ac178e5-1545-4dbf-9786-718a53d6c198")
 	)
-	(hierarchical_label "GP_8"
+	(hierarchical_label "BLUE_3"
 		(shape input)
-		(at 157.48 110.49 180)
+		(at 157.48 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "67d35350-e320-4017-acad-221e15036ca8")
+		(uuid "931df28b-30b5-4ae5-bbd4-b56a19e3ffa7")
 	)
-	(hierarchical_label "GP_4"
+	(hierarchical_label "RED_4"
 		(shape input)
 		(at 157.48 90.17 180)
 		(effects
@@ -1872,7 +1883,7 @@
 		)
 		(uuid "a4ac595e-638f-4832-9726-ed4383a58808")
 	)
-	(hierarchical_label "GP_"
+	(hierarchical_label "HSYNC"
 		(shape input)
 		(at 125.73 109.22 0)
 		(effects
@@ -1883,18 +1894,29 @@
 		)
 		(uuid "acc65d2b-0395-4e11-bbfb-b94ace9c8ff8")
 	)
-	(hierarchical_label "GP_9"
+	(hierarchical_label "BLUE_4"
 		(shape input)
-		(at 157.48 114.3 180)
+		(at 157.48 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b635e25a-c296-419b-825f-204e0c13e4dc")
+		(uuid "bd8e0ec4-15b9-4d15-9a3e-35f442e542c3")
 	)
-	(hierarchical_label "GP_11"
+	(hierarchical_label "GREEN_5"
+		(shape input)
+		(at 157.48 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4a52c4e-63f9-45b2-9b39-9b4a1f4c105a")
+	)
+	(hierarchical_label "BLUE_5"
 		(shape input)
 		(at 157.48 121.92 180)
 		(effects
@@ -1903,31 +1925,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b99eb109-691f-45b3-9564-a30072a1e02e")
+		(uuid "dd76deb1-f116-4cee-ac9c-880e469b08c7")
 	)
-	(hierarchical_label "GP_7"
-		(shape input)
-		(at 157.48 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cc07105b-6695-492b-ab21-c8b6aa02843a")
-	)
-	(hierarchical_label "GP_16"
-		(shape input)
-		(at 157.48 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f18c5344-9a43-4a39-8618-b0af6dbda847")
-	)
-	(hierarchical_label "GP_3"
+	(hierarchical_label "RED_3"
 		(shape input)
 		(at 157.48 86.36 180)
 		(effects

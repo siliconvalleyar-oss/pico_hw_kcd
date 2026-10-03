@@ -1414,172 +1414,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -2014,10 +1848,10 @@
 		(uuid "ae5c5c4c-45c6-4da1-9a22-ab3ce714771e")
 	)
 	(junction
-		(at 232.41 121.92)
+		(at 218.44 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b5a60b50-3a32-4b9a-951c-c35b55e04cb9")
+		(uuid "f3f93946-37ee-4e9d-8687-8111ee36c329")
 	)
 	(wire
 		(pts
@@ -2231,16 +2065,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 120.65) (xy 115.57 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fe888fe-6ff9-4c7b-80c1-b0cb02715b0b")
-	)
-	(wire
-		(pts
 			(xy 118.11 93.98) (xy 132.08 93.98)
 		)
 		(stroke
@@ -2258,16 +2082,6 @@
 			(type default)
 		)
 		(uuid "54d40418-6246-407f-af42-09780a6cf62b")
-	)
-	(wire
-		(pts
-			(xy 232.41 121.92) (xy 232.41 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5659bbfc-37c1-443e-a0d7-4f02337c2dca")
 	)
 	(wire
 		(pts
@@ -2361,16 +2175,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 134.62) (xy 115.57 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98155b9c-11a0-4b7a-8e64-24dbe69f8134")
-	)
-	(wire
-		(pts
 			(xy 232.41 109.22) (xy 232.41 110.49)
 		)
 		(stroke
@@ -2431,6 +2235,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 99.06) (xy 181.61 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae146210-10a5-4c54-8c23-68053f1bb341")
+	)
+	(wire
+		(pts
 			(xy 217.17 106.68) (xy 218.44 106.68)
 		)
 		(stroke
@@ -2468,16 +2282,6 @@
 			(type default)
 		)
 		(uuid "dc22b773-bfd8-4263-88e4-147a0d21931d")
-	)
-	(wire
-		(pts
-			(xy 181.61 99.06) (xy 181.61 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0355392-0493-4c16-ad3c-6a0e251a61d4")
 	)
 	(wire
 		(pts
@@ -3111,7 +2915,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 100.33 0)
+		(at 142.24 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3119,86 +2923,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20c184ea-414b-4f93-ae72-e4a1e7575d45")
-		(property "Reference" "#PWR043"
-			(at 181.61 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 181.61 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "62d1bd7c-5d6d-4a7c-a0d2-895c0729fba4")
-		)
-		(instances
-			(project "pico_hw_dev"
-				(path "/cae338e8-f342-43cb-b99a-a0486629133c/0b8c63fc-3109-4f1a-8140-b91a685f434f"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 76.2 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "224ca02d-b9c4-4c28-bc65-2d79aaec62c6")
+		(uuid "084b026e-f76a-49c7-96bd-e172c8a990c9")
 		(property "Reference" "#PWR036"
-			(at 76.2 109.22 0)
+			(at 142.24 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3208,8 +2935,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 74.676 105.918 0)
+		(property "Value" "GND"
+			(at 140.716 119.888 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3219,7 +2946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 102.87 0)
+			(at 142.24 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3230,7 +2957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 102.87 0)
+			(at 142.24 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3241,7 +2968,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 102.87 0)
+			(at 142.24 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3252,7 +2979,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f6c0bf8-d08a-4683-865b-a514a8b9e264")
+			(uuid "fd297e84-54f1-45b6-a3ff-b65862bdcdc6")
 		)
 		(instances
 			(project "pico_hw_dev"
@@ -3715,241 +3442,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 115.57 125.73 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "58e7d3c5-9235-45a2-975a-9b2ac1d86c75")
-		(property "Reference" "JP10"
-			(at 109.728 122.936 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 117.602 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 115.57 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 115.57 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b036bde9-0178-4dc2-928c-592a40bceb51")
-		)
-		(pin "2"
-			(uuid "f256fdba-6af6-4576-b3cb-5ef46f85538e")
-		)
-		(instances
-			(project "pico_hw_dev"
-				(path "/cae338e8-f342-43cb-b99a-a0486629133c/0b8c63fc-3109-4f1a-8140-b91a685f434f"
-					(reference "JP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 142.24 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5bffb37a-9007-43c0-99bc-ed1d3716c0c0")
-		(property "Reference" "#PWR040"
-			(at 142.24 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 138.684 120.142 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ff2db9cf-8371-4470-9a97-c6476ad8df64")
-		)
-		(instances
-			(project "pico_hw_dev"
-				(path "/cae338e8-f342-43cb-b99a-a0486629133c/0b8c63fc-3109-4f1a-8140-b91a685f434f"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 115.57 115.57 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "68fc7d24-9ea5-4235-a224-cead5f6b6453")
-		(property "Reference" "#PWR038"
-			(at 115.57 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 110.998 114.046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1faa1fcf-7c03-43c3-b42b-552ab296ff15")
-		)
-		(instances
-			(project "pico_hw_dev"
-				(path "/cae338e8-f342-43cb-b99a-a0486629133c/0b8c63fc-3109-4f1a-8140-b91a685f434f"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 173.99 92.71 180)
 		(unit 1)
@@ -4191,160 +3683,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 68.58 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "80b9849f-e50b-43ee-8ffb-671f82e4473d")
-		(property "Reference" "#PWR035"
-			(at 68.58 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 67.056 98.298 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "33c41d19-8971-456f-8e42-3e84c616c892")
-		)
-		(instances
-			(project "pico_hw_dev"
-				(path "/cae338e8-f342-43cb-b99a-a0486629133c/0b8c63fc-3109-4f1a-8140-b91a685f434f"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 115.57 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "86cfff80-bd6a-4afd-bd9c-75f842d0a4a4")
-		(property "Reference" "#PWR039"
-			(at 115.57 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.252 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15dae980-48d0-4ff3-a328-8d8e4f5f96a1")
-		)
-		(instances
-			(project "pico_hw_dev"
-				(path "/cae338e8-f342-43cb-b99a-a0486629133c/0b8c63fc-3109-4f1a-8140-b91a685f434f"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 173.99 78.74 0)
 		(unit 1)
@@ -4431,8 +3769,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "90f01a3c-c71a-447e-bc0e-2c953206a278")
-		(property "Reference" "#PWR041"
+		(uuid "8c085536-f196-48a7-9e65-a0bcc615976d")
+		(property "Reference" "#PWR038"
 			(at 152.4 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4443,8 +3781,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 148.844 120.142 0)
+		(property "Value" "GND"
+			(at 150.876 119.888 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4487,12 +3825,89 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae0352bc-be26-4c8e-800f-8eca62c6c03e")
+			(uuid "2e11478f-9715-4603-9c19-709d54ba32a3")
 		)
 		(instances
 			(project "pico_hw_dev"
 				(path "/cae338e8-f342-43cb-b99a-a0486629133c/0b8c63fc-3109-4f1a-8140-b91a685f434f"
-					(reference "#PWR041")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7ed1b27-cd96-43bb-abfd-32a9589a3bf0")
+		(property "Reference" "#PWR035"
+			(at 68.58 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.056 98.298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "520e83d0-8875-46e3-95ed-d7d441ae4b08")
+		)
+		(instances
+			(project "pico_hw_dev"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c/0b8c63fc-3109-4f1a-8140-b91a685f434f"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4588,6 +4003,83 @@
 			(project "pico_hw_dev"
 				(path "/cae338e8-f342-43cb-b99a-a0486629133c/0b8c63fc-3109-4f1a-8140-b91a685f434f"
 					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4b92315-a2e8-4bad-a0c1-bc4b1138f7cf")
+		(property "Reference" "#PWR040"
+			(at 218.44 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 216.916 124.968 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "964c20a7-6603-460c-9b7c-6d5c74bb0442")
+		)
+		(instances
+			(project "pico_hw_dev"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c/0b8c63fc-3109-4f1a-8140-b91a685f434f"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4837,8 +4329,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 124.46 0)
-		(mirror y)
+		(at 76.2 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4846,10 +4337,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9844810-56ed-45be-8b35-6eedcf60f8fb")
-		(property "Reference" "#PWR045"
-			(at 232.41 130.81 0)
+		(uuid "ebcb2595-5481-49cf-a319-537896dfc5b4")
+		(property "Reference" "#PWR041"
+			(at 76.2 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4859,8 +4349,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 232.41 129.54 0)
+		(property "Value" "GND"
+			(at 74.676 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4870,7 +4360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 124.46 0)
+			(at 76.2 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4881,7 +4371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 124.46 0)
+			(at 76.2 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4891,8 +4381,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 232.41 124.46 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 102.87 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4902,12 +4393,89 @@
 			)
 		)
 		(pin "1"
-			(uuid "d087659f-e46a-4c8a-b09e-abcecb2b96b1")
+			(uuid "873e8ee7-5381-4b35-9be5-a1214ae47451")
 		)
 		(instances
 			(project "pico_hw_dev"
 				(path "/cae338e8-f342-43cb-b99a-a0486629133c/0b8c63fc-3109-4f1a-8140-b91a685f434f"
-					(reference "#PWR045")
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed3a4d47-bd95-43cd-b11f-c01b7a8ed77c")
+		(property "Reference" "#PWR039"
+			(at 181.61 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.086 104.648 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7033bcce-3960-48d0-8212-12534f228fd2")
+		)
+		(instances
+			(project "pico_hw_dev"
+				(path "/cae338e8-f342-43cb-b99a-a0486629133c/0b8c63fc-3109-4f1a-8140-b91a685f434f"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
